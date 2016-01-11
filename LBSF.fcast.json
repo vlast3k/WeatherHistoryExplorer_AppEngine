@@ -1,0 +1,396 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  }
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"2:00 AM EET",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Saturday",
+		"fcttext":"Mostly cloudy. High of 57F. Winds from the SSE at 5 to 10 mph.",
+		"fcttext_metric":"Mostly cloudy. High of 14C. Winds from the SSE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancerain.gif",
+		"title":"Saturday Night",
+		"fcttext":"Overcast with a chance of rain in the evening, then partly cloudy with a chance of rain. Low of 45F. Winds from the SSW at 5 to 10 mph. Chance of rain 40%.",
+		"fcttext_metric":"Overcast with a chance of rain in the evening, then partly cloudy with a chance of rain. Low of 7C. Winds from the SSW at 5 to 15 km/h. Chance of rain 40%.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/rain.gif",
+		"title":"Sunday",
+		"fcttext":"Overcast with a chance of rain, then rain in the afternoon. High of 54F. Winds less than 5 mph. Chance of rain 80%.",
+		"fcttext_metric":"Overcast with a chance of rain, then rain in the afternoon. High of 12C. Winds less than 5 km/h. Chance of rain 80%.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":3,
+		"icon":"rain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/rain.gif",
+		"title":"Sunday Night",
+		"fcttext":"Overcast with rain, then a chance of rain after midnight. Low of 41F. Winds less than 5 mph. Chance of rain 90% with rainfall amounts near 0.3 in. possible.",
+		"fcttext_metric":"Overcast with rain, then a chance of rain after midnight. Low of 5C. Winds less than 5 km/h. Chance of rain 90% with rainfall amounts near 6.6 mm possible.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":4,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Monday",
+		"fcttext":"Overcast. High of 45F. Winds from the WNW at 5 to 10 mph.",
+		"fcttext_metric":"Overcast. High of 7C. Winds from the WNW at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":5,
+		"icon":"chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancerain.gif",
+		"title":"Monday Night",
+		"fcttext":"Mostly cloudy with a chance of snow and a chance of rain after midnight. Low of 30F. Winds from the WNW at 5 to 10 mph. Chance of snow 40%.",
+		"fcttext_metric":"Mostly cloudy with a chance of snow and a chance of rain after midnight. Low of -1C. Winds from the WNW at 10 to 15 km/h. Chance of snow 40%.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancesnow",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancesnow.gif",
+		"title":"Tuesday",
+		"fcttext":"Overcast with a chance of rain, then a chance of snow and rain showers in the afternoon. High of 36F with a windchill as low as 25F. Winds from the NNW at 5 to 10 mph. Chance of precipitation 40% .",
+		"fcttext_metric":"Overcast with a chance of rain, then a chance of snow and rain showers in the afternoon. High of 2C with a windchill as low as -4C. Winds from the NNW at 10 to 15 km/h. Chance of precipitation 40% .",
+		"pop":"40"
+		}
+		,
+		{
+		"period":7,
+		"icon":"chancesnow",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancesnow.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Overcast with a chance of snow. Low of 25F. Winds less than 5 mph. Chance of snow 40% with accumulations up to 1 in. possible.",
+		"fcttext_metric":"Overcast with a chance of snow. Low of -4C. Winds less than 5 km/h. Chance of snow 40% with accumulations up to 2 cm possible.",
+		"pop":"40"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1385240400",
+	"pretty":"11:00 PM EET on November 23, 2013",
+	"day":23,
+	"month":11,
+	"year":2013,
+	"yday":326,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"November",
+	"monthname_short":"Nov",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"EET",
+	"tz_long":"Europe/Sofia"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"45",
+		"celsius":"7"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.01,
+		"mm": 0.3
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.01,
+		"mm": 0.3
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "SE",
+		"degrees": 138
+		},
+		"avewind": {
+		"mph": 6,
+		"kph": 10,
+		"dir": "SSE",
+		"degrees": 147
+		},
+		"avehumidity": 59,
+		"maxhumidity": 81,
+		"minhumidity": 49
+		}
+		,
+		{"date":{
+	"epoch":"1385326800",
+	"pretty":"11:00 PM EET on November 24, 2013",
+	"day":24,
+	"month":11,
+	"year":2013,
+	"yday":327,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"November",
+	"monthname_short":"Nov",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"EET",
+	"tz_long":"Europe/Sofia"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"low": {
+		"fahrenheit":"41",
+		"celsius":"5"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/rain.gif",
+		"skyicon":"mostlycloudy",
+		"pop":80,
+		"qpf_allday": {
+		"in": 0.44,
+		"mm": 11.2
+		},
+		"qpf_day": {
+		"in": 0.18,
+		"mm": 4.6
+		},
+		"qpf_night": {
+		"in": 0.26,
+		"mm": 6.6
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "ENE",
+		"degrees": 59
+		},
+		"avewind": {
+		"mph": 4,
+		"kph": 6,
+		"dir": "ENE",
+		"degrees": 68
+		},
+		"avehumidity": 68,
+		"maxhumidity": 71,
+		"minhumidity": 65
+		}
+		,
+		{"date":{
+	"epoch":"1385413200",
+	"pretty":"11:00 PM EET on November 25, 2013",
+	"day":25,
+	"month":11,
+	"year":2013,
+	"yday":328,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"November",
+	"monthname_short":"Nov",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"EET",
+	"tz_long":"Europe/Sofia"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"45",
+		"celsius":"7"
+		},
+		"low": {
+		"fahrenheit":"30",
+		"celsius":"-1"
+		},
+		"conditions":"Mostly Cloudy",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"skyicon":"mostlycloudy",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.02,
+		"mm": 0.5
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.07,
+		"mm": 1.8
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 1
+		},
+		"maxwind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "WNW",
+		"degrees": 300
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "WNW",
+		"degrees": 293
+		},
+		"avehumidity": 55,
+		"maxhumidity": 80,
+		"minhumidity": 51
+		}
+		,
+		{"date":{
+	"epoch":"1385499600",
+	"pretty":"11:00 PM EET on November 26, 2013",
+	"day":26,
+	"month":11,
+	"year":2013,
+	"yday":329,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"November",
+	"monthname_short":"Nov",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"EET",
+	"tz_long":"Europe/Sofia"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"36",
+		"celsius":"2"
+		},
+		"low": {
+		"fahrenheit":"25",
+		"celsius":"-4"
+		},
+		"conditions":"Chance of Snow",
+		"icon":"chancesnow",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancesnow.gif",
+		"skyicon":"cloudy",
+		"pop":40,
+		"qpf_allday": {
+		"in": 0.15,
+		"mm": 3.8
+		},
+		"qpf_day": {
+		"in": 0.04,
+		"mm": 1.0
+		},
+		"qpf_night": {
+		"in": 0.08,
+		"mm": 2.0
+		},
+		"snow_allday": {
+		"in": 1,
+		"cm": 4
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 1
+		},
+		"snow_night": {
+		"in": 1,
+		"cm": 2
+		},
+		"maxwind": {
+		"mph": 6,
+		"kph": 10,
+		"dir": "NNW",
+		"degrees": 330
+		},
+		"avewind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "NNW",
+		"degrees": 335
+		},
+		"avehumidity": 66,
+		"maxhumidity": 72,
+		"minhumidity": 53
+		}
+		]
+		}
+	}
+}
